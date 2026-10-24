@@ -23,3 +23,5 @@ ENV SPRING_PROFILES_ACTIVE=prod
 ENV JAVA_TOOL_OPTIONS="-XX:MaxRAMPercentage=60 -XX:+ExitOnOutOfMemoryError"
 EXPOSE 18707
 ENTRYPOINT ["java","-jar","/app/app.jar"]
+
+
